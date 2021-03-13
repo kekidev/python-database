@@ -76,4 +76,5 @@ while True:
         break
 
 
-
+conn.close()
+c.close()
