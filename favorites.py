@@ -1,3 +1,11 @@
+"""
+    functionally programmed application
+    used sqlite3 
+    you cannot customize any
+    check code for more informations
+"""
+
+
 import sqlite3
 import webbrowser
 

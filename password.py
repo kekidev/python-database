@@ -1,3 +1,11 @@
+"""
+    Object oriented programmed application
+    used sqlite3
+    you can customize only "path to db file"
+    check code for more informations
+"""
+
+
 import sqlite3
 
 class PasswordManagement:
