@@ -44,6 +44,10 @@ class PasswordManagement:
         print("q - quit")
         print("*"*50)
 
+    @staticmethod
+    def e():
+        print("big E")
+
     def add(self):
         service = input("Service: ")
         password = input("Password: ")  
