@@ -4,7 +4,6 @@
     email & encrypted password is same
 """
 
-
 import hashlib
 import sqlite3
 

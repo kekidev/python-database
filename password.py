@@ -73,6 +73,4 @@ class PasswordManagement:
         self.c.execute("SELECT * FROM passwords")
         print(self.c.fetchall())
 
-
-obj = PasswordManagement("databases/passwords.db")
-obj.run()
+PasswordManagement("databases/passwords.db").run()
