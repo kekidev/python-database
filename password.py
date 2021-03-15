@@ -30,6 +30,8 @@ class PasswordManagement:
             elif res == "ls":
                 self.ls()
             elif res == "q":
+                self.c.close()
+                self.conn.close()
                 break
             else:
                 print("Not existing option")
