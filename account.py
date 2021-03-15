@@ -1,7 +1,7 @@
 """
     Get user's input and encrypt using sha256 algorithm and store it in database
     Get user's input and encrypt with same algorithm and check if 
-    email & encrypted password is same
+    email & encrypted password are same then it says logged in
 """
 
 import hashlib

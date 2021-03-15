@@ -29,7 +29,7 @@ class PasswordManagement:
                 self.clear()
             elif res == "ls":
                 self.ls()
-            elif res == "q":
+            elif res == "q":    
                 self.c.close()
                 self.conn.close()
                 break
